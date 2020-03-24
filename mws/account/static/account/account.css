@@ -1,0 +1,49 @@
+.main {
+    text-align: center;
+    margin-top: 60pt;
+    margin-bottom: 20pt;
+    font-size: 40pt;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  form {
+    border: 1pt solid;
+    width: 300pt;
+    padding-bottom: 10pt;
+    margin: 0 auto;
+    padding-left: 3pt;
+    padding-right: 3pt;
+  }
+  
+  .form-label-group {
+    text-align: center;
+  }
+  
+  .div-sign-up {
+    text-align: right;
+  }
+  
+  .form-control {
+    width: 295pt;
+    height: 30pt;
+    margin-top: 3pt;
+    font-size: 15pt;
+  }
+  
+  .login-div {
+    text-align: center;
+  }
+  
+  .button-login {
+    width: 298pt;
+    font-size: 20pt;
+    margin-top: 2pt;
+  }
+  
+  .link-sign-up {
+    color : red;
+    text-decoration: none;
+  }

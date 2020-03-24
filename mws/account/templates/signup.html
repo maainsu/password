@@ -1,0 +1,33 @@
+<!doctype html>
+{%load static%}
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static 'account/account.css' %}" type="text/css"/>
+  </head>
+  <body>
+    <header>
+      <p class="main">회원가입</p>
+    </header>
+    <div class="container">
+    {% csrf_token %}
+      <form>
+        <div class="form-label-group">
+          <input type="text" name="username" class="form-control" placeholder="ID" required autofocus>
+        </div>
+
+        <div class="form-label-group">
+          <input type="password" name="password" class="form-control" placeholder="Password" required>
+        </div>
+
+        <div class="div-login">
+          <button class="button-login" type="submit">Sign Up</button>
+        </div>
+
+        <div class="div-sign-up">
+          <a href="http://127.0.0.1:8000/account/">로그인창</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

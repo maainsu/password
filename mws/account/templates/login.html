@@ -1,0 +1,32 @@
+<!doctype html>
+{%load static%}
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static 'account/account.css' %}" type="text/css"/>
+  </head>
+  <body>
+    <header>
+      <p class="main">로그인</p>
+    </header>
+    <div class="container">
+      <form>
+        <div class="form-label-group">
+          <input type="text" id="username" class="form-control" placeholder="ID" required autofocus>
+        </div>
+
+        <div class="form-label-group">
+          <input type="password" id="password" class="form-control" placeholder="Password" required>
+        </div>
+
+        <div class="div-login">
+          <button class="button-login" type="submit">Login</button>
+        </div>
+
+        <div class="div-sign-up">
+          <a href="http://127.0.0.1:8000/account/signup">아이디 만들기</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
